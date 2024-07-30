@@ -5,7 +5,7 @@ import time
 
 try:
 	interface = 'eth0' # Network interface to use for the attack
-	victimIP = '10.10.10.200'
+	victimIP = '10.10.10.189'
 	#gate ip: the gateway IP which the attacker will try to spookf
 	gateIP = '10.10.10.1' 
 except KeyboardInterrupt:
